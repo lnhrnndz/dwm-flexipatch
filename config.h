@@ -7,7 +7,7 @@ static const int corner_radius           = 10;
 #else
 static const unsigned int borderpx       = 3;   /* border pixel of windows */
 #endif // ROUNDED_CORNERS_PATCH
-static const unsigned int snap           = 32;  /* snap pixel */
+static const unsigned int snap           = 2;  /* snap pixel */
 #if SWALLOW_PATCH
 static const int swallowfloating         = 0;   /* 1 means swallow floating windows by default */
 #endif // SWALLOW_PATCH
